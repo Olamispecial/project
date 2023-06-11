@@ -68,19 +68,19 @@ header nav  a{
 
 #email{
     width: 250px;
-    height: 30px;
+    height: 35px;
     padding: 10px;
 }
 
 #get-started{
     background: blue;
 	color: #fff;
-	padding: 5px 50px;
+	padding: 7px 50px;
 	border-radius: 0px;
     border-color: blue;
 	text-decoration: none;
 	margin: 20px 20px;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 #starter-image > img{
@@ -277,7 +277,7 @@ footer{
 /* footer section ends here */
 
 /* media query starts here */
-@media(max-width: 375px){
+@media(min-width: 375px) and (max-width: 414px){
 
 /* header starts here */
 header > nav{
@@ -297,7 +297,7 @@ header > nav > img{
 }
 
 #starter > div{
-    width: 320px;
+    width: 360px;
 }
 
 #starter-text{
@@ -305,14 +305,14 @@ header > nav > img{
 }
 
 #starter-text > h1{
-    width: 340px;
-    font-size: 25px;
+    width: 370px;
+    font-size: 27px;
     line-height: 32px;
     text-align: center;
 }
 
 #starter-text > p{
-    width: 328px;
+    width: 350px;
     padding: 20px 10px;
     text-align: center;
     line-height: 25px;
@@ -330,7 +330,7 @@ header > nav > img{
 }
 
 #email{
-    width: 320px;
+    width: 360px;
     height: 30px;
     padding: 15px;
 }
